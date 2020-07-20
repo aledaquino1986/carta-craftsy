@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+body{
+    background-image: url('../img/bg-2.png');
+    background-repeat: repeat;
+}
+.master{
+    width: 1140px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: orangered;
+    margin-top: 10px;
+    padding: 15px;
+   
+}
+header img{
+    float: left;
+}
+header .menu{
+    float: left;
+    padding-top: 10px;
+}
+header .menu li{
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    padding:10px;
+}
+header .botones{
+    padding-top: 10px;
+    float: right;
+}
+header .botones li{
+    padding: 5px
+}
+
+.productos{
+    float: left;
+    width: 800px;  
+    background-color: white;
+    margin-top: 15px; 
+}
+
+.productos section{
+    margin: 10px;
+    width: 380px;
+    margin-bottom: 20px;
+}
+.productos section img{
+    width: 380px;
+}
+
+.productos section:nth-child(odd){
+    float: left;
+}
+
+.productos section:nth-child(even){
+    float: right;
+}
+
+.productos h2{
+    margin: 10px 0px;
+}
+
+.productos section button{
+    background-color: red;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+.lateral{
+    float: right;
+    width: 320px;
+    height: 200px;
+}
+
+.lateral h2{
+    background-color: white;
+    padding: 5px;
+    margin-top: 15px;
+    border:  rgb(153, 153, 153) 1px solid;
+}
+
+.lateral div{
+    margin-top: 10px;
+}
+
+.lateral div article{
+    background-color: white;
+    border: lightskyblue 1px solid;
+    padding: 5px;
+}
+.lateral article p{
+    float: right;
+    width: 182px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.img2{
+    margin-top: 15px;
+}
+    
+
+

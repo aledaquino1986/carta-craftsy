@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Página de contacto</h1>
+        <ul>
+            <li><a href="carta.html"> Inicio</a></li>
+        </ul>
+    </header>
+    
+        <form>
+            <label for="iluminacion">¿De dónde sos?</label>
+            <br>
+            <select name="lugar" id="lugar">
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Santa Fe">Santa fe</option>
+                <option value="Springfield">Springfield</option>
+                <option value="La Luna">La Luna</option>
+            </select>
+        </article>
+        <article>
+            <label for="iluminacion">¿Qué te pareció la iluminación del ambiente?</label>
+            <br>
+            <input type="checkbox" name="muy_acorde" value="a">Muy acorde
+            <br>
+            <input type="checkbox" name="buena" value="b">Buena, pero podría mejorar
+            <br>
+            <input type="checkbox" name="mala" value="m">Mala
+        </article>
+        <article>
+            <label for="plato">¿Qué tipo de plato fue el que más te gustó?</label>
+            <br>
+            <input type="checkbox" name="entrada" value="e">Entrada
+            <br>
+            <input type="checkbox" name="plato_principal" value="pp">Plato principal
+            <br>
+            <input type="checkbox" name="postre" value="p">Postre
+            <br>
+            <input type="checkbox" name="otros" value="o">Otros
+        </article>
+        <article>
+            <label for="recomendacion">¿Recomendarías el lugar?</label>
+            <br>
+            <input type="radio" name="r" value="s">Si
+            <input type="radio" name="r" value="n">No
+        </article>
+        <article>
+            <label for="porque">¿Por qué?</label>
+            <br>
+            <textarea name="porque" id="porque" cols="80" rows="10"></textarea>
+        </article>
+        <article>
+            <label for="datos">Dejanos tus datos y nos pondremos en contacto con vos</label>
+            <br>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" placeholder="tu nombre" required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="tu email" required>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+        </article>
+        
+        </form>
+    
+</body>
+</html>
